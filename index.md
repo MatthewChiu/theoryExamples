@@ -16,9 +16,9 @@ title: Music Theory Examples
 ### [{{ song.composer }} — "{{ song.title }}"]({{ song.page | relative_url }})
 
 <div class="techniques">
-{% for technique in example.techniques %}
-<span>{{ technique }}</span>
-{% endfor %}
+  {% for technique in example.techniques %}
+    <span>{{ technique }}</span>
+  {% endfor %}
 </div>
 
 {% endfor %}
