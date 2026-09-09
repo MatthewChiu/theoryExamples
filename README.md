@@ -53,16 +53,13 @@ This is the only file you need to type into. List the song once, with **every** 
   page: /examples/shes-always-a-woman.html
   topics:
     - category: Mode Mixture
-      techniques:
-        - "I → i"
+      techniques: ["I → i"]
     - category: Secondary Dominants
       subcategory: "V/vi"
-      techniques:
-        - "V7/vi"
+      techniques: ["V7/vi"]
     - category: Sequences
       subcategory: "Descending Fifths"
-      techniques:
-        - "D5"
+      techniques: ["D5"]
 ```
 
 `subcategory` is optional — leave it out for categories that don't need nesting. You can repeat the same `category` with different `subcategory` values (e.g. `V/vi` and `V/ii`) and they'll both land under one "Secondary Dominants" heading, nested underneath it.

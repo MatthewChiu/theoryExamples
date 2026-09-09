@@ -38,3 +38,13 @@
       subcategory: "Descending Fifths"
       techniques:
         - "D5"
+
+
+- id: ill-never-smile-again
+  composer: Tommy Dorsey
+  title: "Illl Never Smile Again"
+  page: /examples/ill-never-smile-again.html
+  topics:
+    - category: Mode Mixture
+      techniques:
+        - "iihd7 - V7 - I"
