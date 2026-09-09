@@ -3,14 +3,7 @@ layout: default
 title: Music Theory Examples
 ---
 
-# Music Theory
-
-SONG TEST:
-
-{% assign test_song = site.data.songs["shes-always-a-woman"] %}
-
-{{ test_song.composer }}
-{{ test_song.title }}
+# Music Theory Examples
 
 {% for category in site.data.theory %}
 
@@ -20,7 +13,7 @@ SONG TEST:
 
 {% assign song = site.data.songs[example.song] %}
 
-### [{{ song.composer }} — "{{ song.title }}"]({{ song.page }})
+### [{{ song.composer }} — "{{ song.title }}"]({{ song.page | relative_url }})
 
 <div class="techniques">
 {% for technique in example.techniques %}
