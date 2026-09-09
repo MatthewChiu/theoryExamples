@@ -1,0 +1,39 @@
+name: Generate theory data
+
+# Runs whenever entries.yml changes (including edits made right in the
+# GitHub web UI), regenerates _data/songs.yml and _data/theory.yml, and
+# commits the results back. That commit then triggers the normal GitHub
+# Pages build. This means day-to-day you only ever touch _data/entries.yml.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "_data/entries.yml"
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Install dependencies
+        run: pip install pyyaml
+
+      - name: Regenerate songs.yml and theory.yml
+        run: python3 scripts/generate.py
+
+      - name: Commit generated files
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add _data/songs.yml _data/theory.yml
+          git diff --cached --quiet || git commit -m "Auto-generate songs.yml / theory.yml from entries.yml [skip ci]"
+          git push

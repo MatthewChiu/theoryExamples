@@ -1,0 +1,40 @@
+# ============================================================================
+# _data/entries.yml
+#
+# THIS is the file you edit day-to-day. One entry per song/composer, listing
+# every theory topic it demonstrates. Run `python3 scripts/generate.py`
+# afterward (or just push — see README) and it will regenerate
+# _data/songs.yml and _data/theory.yml for you.
+#
+# Fields:
+#   id        - unique slug for the song (used for the page filename too)
+#   composer  - composer/artist name
+#   title     - song/piece title
+#   page      - path to the example page (see examples/<id>.md)
+#   topics    - list of theory points this song demonstrates. Each topic has:
+#       category     - top-level theory category, e.g. "Secondary Dominants"
+#       subcategory  - OPTIONAL nested label, e.g. "V/vi". Leave it out for
+#                       categories that don't need nesting (e.g. Mode Mixture)
+#       techniques   - one or more short labels shown as badges on the site
+#
+# You can list the SAME category multiple times with different subcategories
+# (e.g. Secondary Dominants / V/vi and Secondary Dominants / V/ii) — they'll
+# both be filed under "Secondary Dominants" automatically.
+# ============================================================================
+
+- id: shes-always-a-woman
+  composer: Billy Joel
+  title: "She's Always a Woman"
+  page: /examples/shes-always-a-woman.html
+  topics:
+    - category: Mode Mixture
+      techniques:
+        - "I → i"
+    - category: Secondary Dominants
+      subcategory: "V/vi"
+      techniques:
+        - "V7/vi"
+    - category: Sequences
+      subcategory: "Descending Fifths"
+      techniques:
+        - "D5"
