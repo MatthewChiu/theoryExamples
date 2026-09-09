@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Music Theory
+title: Music Theory Examples
 ---
 
-# Music Theory
+# Music Theory Examples
 
 {% for category in site.data.theory %}
 
