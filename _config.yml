@@ -7,5 +7,15 @@
 
 # base_url: "/"
 base_url: "/<repo-name>/"
-site_title: "The Analysis Index"
-site_description: "A personal, growing catalog of music theory examples — sorted by composer, by piece, and by the harmonic and formal devices at work in them."
+site_title: "Theory Index"
+site_description: "A personal, growing catalog of music theory examples sorted by composer, by piece, and by the theory at work in them."
+
+theme: moonwalk
+
+moonwalk:
+  color_scheme: dark
+
+remote_theme: abhinavs/moonwalk
+
+plugins:
+  - jekyll-remote-theme
