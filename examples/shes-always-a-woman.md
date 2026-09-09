@@ -9,14 +9,14 @@ title: "She's Always a Woman"
 
 ### I → i
 
-![Markdown Logo](/scoreExcerpts/billyJoel.ShesAlwaysAWoman.Ii.png)
+![ShesAlwaysAWoman.Ii](/scoreExcerpts/billyJoel.ShesAlwaysAWoman.Ii.png)
 
 
 ## Secondary Dominants
 
 ### V7/vi
 
-![Markdown Logo](/scoreExcerpts/billyJoel.ShesAlwaysAWoman.V:vi.png)
+![ShesAlwaysAWoman.V:vi](/scoreExcerpts/billyJoel.ShesAlwaysAWoman.V:vi.png)
 
 ## Descending fifths
 
