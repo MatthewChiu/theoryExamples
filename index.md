@@ -3,7 +3,14 @@ layout: default
 title: Music Theory Examples
 ---
 
-# Music Theory Examples
+# Music Theory
+
+SONG TEST:
+
+{% assign test_song = site.data.songs["shes-always-a-woman"] %}
+
+{{ test_song.composer }}
+{{ test_song.title }}
 
 {% for category in site.data.theory %}
 
@@ -13,18 +20,12 @@ title: Music Theory Examples
 
 {% assign song = site.data.songs[example.song] %}
 
-<div class="theory-entry">
-
-<a href="{{ song.page }}" class="example-title">
-  {{ song.composer }} — "{{ song.title }}"
-</a>
+### [{{ song.composer }} — "{{ song.title }}"]({{ song.page }})
 
 <div class="techniques">
 {% for technique in example.techniques %}
 <span>{{ technique }}</span>
 {% endfor %}
-</div>
-
 </div>
 
 {% endfor %}
