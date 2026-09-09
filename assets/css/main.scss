@@ -1,37 +1,51 @@
 ---
 ---
 
-@import "moonwalk";
+@import "minima";
 
-.theory-entry {
-  margin: 1.5rem 0 2.5rem;
+/* Music Theory List Layout */
+.theory-list {
+  list-style: none;
+  margin: 1.5rem 0;
+  padding: 0;
 }
 
-.example-title {
-  display: block;
-  font-size: 1.15rem;
-  font-weight: 500;
-  margin-bottom: 0.5rem;
+.theory-item {
+  border-bottom: 1px solid #e9ecef;
+  margin-bottom: 1.25rem;
+  padding-bottom: 1rem;
+}
+
+.theory-title {
+  color: #111111;
+  display: inline-block;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 0.4rem;
   text-decoration: none;
 }
 
-.example-title:hover {
+.theory-title:hover {
+  color: #0056b3;
   text-decoration: underline;
 }
 
-.techniques {
+.techniques-list {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.4rem;
-  margin-top: 0.4rem;
-  margin-bottom: 1.25rem;
+  gap: 0.4rem 0.5rem;
+  margin-top: 0.2rem;
 }
 
-.techniques span {
-  color: var(--text-secondary, #888);
-  border: 1px solid var(--text-secondary, #555);
-  border-radius: 3px;
-  padding: 0.2rem 0.45rem;
-  font-size: 0.8rem;
-  line-height: 1.2;
+.technique-badge {
+  background-color: #f1f3f5;
+  border: 1px solid #e0e0e0;
+  border-radius: 12px;
+  color: #6c757d; /* Standard neutral gray */
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  font-size: 0.78rem;
+  font-weight: 500;
+  line-height: 1;
+  padding: 0.3rem 0.65rem;
 }

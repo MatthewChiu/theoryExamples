@@ -3,23 +3,26 @@ layout: default
 title: Music Theory Examples
 ---
 
-# Music Theory Examples
+<h1>Music Theory</h1>
 
 {% for category in site.data.theory %}
 
-## {{ category.category }}
+  <h2>{{ category.category }}</h2>
 
-{% for example in category.examples %}
-
-{% assign song = site.data.songs[example.song] %}
-
-### [{{ song.composer }} — "{{ song.title }}"]({{ song.page | relative_url }})
-
-<div class="techniques">
-  {% for technique in example.techniques %}
-    <span>{{ technique }}</span>
+  <ul class="theory-list">
+  {% for example in category.examples %}
+    {% assign song = site.data.songs[example.song] %}
+    <li class="theory-item">
+      <a href="{{ song.page | relative_url }}" class="theory-title">
+        {{ song.composer }} — "{{ song.title }}"
+      </a>
+      <div class="techniques-list">
+        {% for technique in example.techniques %}
+          <span class="technique-badge">{{ technique }}</span>
+        {% endfor %}
+      </div>
+    </li>
   {% endfor %}
-</div>
+  </ul>
 
-{% endfor %}
 {% endfor %}
