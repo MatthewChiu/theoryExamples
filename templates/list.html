@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% block title %}{{ title }} — {{ site.site_title }}{% endblock %}
+{% block content %}
+
+<h1 class="section-head">{{ title }}</h1>
+
+{% if kind == "tag" %}
+<div class="tag-cloud">
+  {% for item in items %}
+  <a class="tag" href="{{ ('/tags/' + item.slug + '/') | relurl }}">
+    {{ item.name }} <span class="tag__count">{{ item.entries|length }}</span>
+  </a>
+  {% endfor %}
+</div>
+{% else %}
+<ul class="plain-list">
+  {% for item in items %}
+  <li>
+    <a href="{{ ('/composers/' + item.slug + '/') | relurl }}">{{ item.name }}</a>
+    <span class="plain-list__count">{{ item.entries|length }}</span>
+  </li>
+  {% endfor %}
+</ul>
+{% endif %}
+
+{% endblock %}

@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}{{ composer }} — {{ site.site_title }}{% endblock %}
+{% block content %}
+
+<p class="crumb"><a href="{{ '/composers/' | relurl }}">Composers</a></p>
+<h1 class="section-head">{{ composer }}</h1>
+<p class="section-sub">{{ entries|length }} entr{{ 'y' if entries|length == 1 else 'ies' }} in the index</p>
+
+<ul class="entry-list">
+  {% for e in entries %}
+  <li class="entry-list__item">
+    <a class="entry-list__title" href="{{ ('/entries/' + e.slug + '/') | relurl }}">{{ e.piece }}</a>
+    {% if e.tags %}
+    <span class="entry-list__tags">
+      {% for tag in e.tags %}<a class="tag tag--small" href="{{ ('/tags/' + e.tag_slugs[loop.index0] + '/') | relurl }}">{{ tag }}</a>{% endfor %}
+    </span>
+    {% endif %}
+  </li>
+  {% endfor %}
+</ul>
+
+{% endblock %}
