@@ -1,0 +1,20 @@
+- category: MODE MIXTURE
+  examples:
+    - composer: Billy Joel
+      title: "She's Always a Woman"
+      page: /examples/shes-always-a-woman/
+      techniques:
+        - "I → i"
+        - "V7/vi"
+        - "D5"
+
+- category: SECONDARY DOMINANTS
+  examples:
+    - composer: Billy Joel
+      title: "She's Always a Woman"
+      page: /examples/shes-always-a-woman/
+      techniques:
+        - "I → i"
+        - "V7/vi"
+        - "D5"
+

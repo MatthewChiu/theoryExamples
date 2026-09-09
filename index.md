@@ -1,14 +1,31 @@
 ---
-layout: home
-title: Theory Examples 
+layout: default
+title: Music Theory
 ---
 
-# Secondary Dominants 
-## Billy Joel, "She's Always a Woman" 
-V7/vi; 
+# Music Theory
 
-# Mode Mixture
-## Billy Joel, "She's Always a Woman"
+{% for category in site.data.theory %}
 
-# Tonicization
-## Billy Joel, "She's Always a Woman" 
+## {{ category.category }}
+
+{% for example in category.examples %}
+
+{% assign song = site.data.songs[example.song] %}
+
+<div class="theory-entry">
+
+<a href="{{ song.page }}" class="example-title">
+  {{ song.composer }} — "{{ song.title }}"
+</a>
+
+<div class="techniques">
+{% for technique in example.techniques %}
+  <span>{{ technique }}</span>
+{% endfor %}
+</div>
+
+</div>
+
+{% endfor %}
+{% endfor %}

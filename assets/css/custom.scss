@@ -1,0 +1,29 @@
+.theory-entry {
+  margin: 1.5rem 0 2.5rem;
+}
+
+.example-title {
+  display: block;
+  font-size: 1.15rem;
+  font-weight: 500;
+  margin-bottom: 0.45rem;
+  text-decoration: none;
+}
+
+.example-title:hover {
+  text-decoration: underline;
+}
+
+.techniques {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+  color: #888;
+  font-size: 0.78rem;
+}
+
+.techniques span {
+  border: 1px solid #555;
+  border-radius: 3px;
+  padding: 0.15rem 0.4rem;
+}

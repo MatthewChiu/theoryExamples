@@ -1,21 +1,10 @@
-# Site-wide settings.
-#
-# base_url: if you're publishing to https://<user>.github.io/<repo>/,
-# set this to "/<repo>/" (with slashes on both ends). If you're using a
-# custom domain or publishing to https://<user>.github.io/ directly,
-# leave it as "/".
-
-# base_url: "/"
-base_url: "/<repo-name>/"
-site_title: "Theory Index"
-site_description: "A personal, growing catalog of music theory examples sorted by composer, by piece, and by the theory at work in them."
-
-theme: moonwalk
-
-moonwalk:
-  color_scheme: dark
+title: Music Theory
+description: Music theory examples
 
 remote_theme: abhinavs/moonwalk
 
 plugins:
   - jekyll-remote-theme
+
+sass:
+  style: compressed
