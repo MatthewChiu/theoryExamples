@@ -11,7 +11,7 @@ title: Music Theory Examples
 
 {% for example in category.examples %}
 
-{% assign song = site.data.songs | where: "id", example.song | first %}
+{% assign song = site.data.songs[example.song] %}
 
 <div class="theory-entry">
 
