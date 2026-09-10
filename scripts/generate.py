@@ -34,7 +34,7 @@ def load_entries():
 
 
 def validate_entry(entry, index):
-    required = ["id", "composer", "title", "page"]
+    required = ["id", "composer", "title"]
     missing = [k for k in required if not entry.get(k)]
     if missing:
         sys.exit(
@@ -57,13 +57,18 @@ def validate_entry(entry, index):
 def build_songs(entries):
     songs = OrderedDict()
     for entry in entries:
-        songs[entry["id"]] = OrderedDict(
+        song = OrderedDict(
             [
                 ("composer", entry["composer"]),
                 ("title", entry["title"]),
-                ("page", entry["page"]),
             ]
         )
+        # `page` is optional — omit it entirely (rather than writing a null)
+        # if the example page doesn't exist yet. index.md checks for this
+        # and renders the song as plain text instead of a link.
+        if entry.get("page"):
+            song["page"] = entry["page"]
+        songs[entry["id"]] = song
     return songs
 
 

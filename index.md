@@ -13,9 +13,15 @@ title: Music Theory Examples
 {% for example in category.examples %}
 {% assign song = site.data.songs[example.song] %}
 <li class="theory-item">
+{% if song.page %}
 <a href="{{ song.page | relative_url }}" class="theory-title">
 {{ song.composer }} &mdash; "{{ song.title }}"
 </a>
+{% else %}
+<span class="theory-title theory-title-nolink">
+{{ song.composer }} &mdash; "{{ song.title }}"
+</span>
+{% endif %}
 <div class="techniques-list">
 {% for technique in example.techniques %}
 <span class="technique-badge">{{ technique }}</span>
@@ -33,9 +39,15 @@ title: Music Theory Examples
 {% for example in subcategory[1].examples %}
 {% assign song = site.data.songs[example.song] %}
 <li class="theory-item">
+{% if song.page %}
 <a href="{{ song.page | relative_url }}" class="theory-title">
 {{ song.composer }} &mdash; "{{ song.title }}"
 </a>
+{% else %}
+<span class="theory-title theory-title-nolink">
+{{ song.composer }} &mdash; "{{ song.title }}"
+</span>
+{% endif %}
 <div class="techniques-list">
 {% for technique in example.techniques %}
 <span class="technique-badge">{{ technique }}</span>

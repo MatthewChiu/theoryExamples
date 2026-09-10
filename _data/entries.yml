@@ -78,3 +78,30 @@
         - "I – iii – ii – V7"
         - "I – I+ – vi – V9/ii – ii – iv – ii – V7 – I"
 
+- id: 1pm 
+  composer: Animal Crossing 
+  title: "1:00 pm"
+  # page: /examples/1pm.html
+  topics:
+    - category: "64 Chords" 
+      techniques:
+        - "I – I64"
+    - category: Other Progressions
+      techniques:
+	- "ii – V7sus4 – ii – V7 – I7 – V7 – IV6 – V65"
+
+- id: 7am 
+  composer: Animal Crossing
+  title: "7:00 am"
+  # page: /examples/7am.html
+  topics:
+    - category: "Rhythmic Techniques"
+      techniques:
+        - "<3,5>"
+	- "Ant. Sync"
+    - category: "Secondary Dominants"
+      techniques:
+	- "V9/ii - ii"
+    - category: Other Progressions
+      techniques:
+	- "I7 – ii7 – iii7 – V9/ii – ii7 – iii7 – IV7 – Vsus4"
