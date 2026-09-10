@@ -21,6 +21,9 @@
     - V7/ii
     - V7/V (delayed res.)
     - V7/vi
+  - song: 7am
+    techniques:
+    - V9/ii - ii
 - category: Sequences
   subcategories:
     Descending Fifths:
@@ -32,6 +35,9 @@
   examples:
   - song: tie-a-yellow-ribbon
     techniques: '64'
+  - song: 1pm
+    techniques:
+    - I – I64
 - category: Tonicization
   examples:
   - song: tie-a-yellow-ribbon
@@ -43,9 +49,19 @@
     techniques:
     - Tresillo
     - Ant. Sync
+  - song: 7am
+    techniques:
+    - <3,5>
+    - Ant. Sync
 - category: Other Progressions
   examples:
   - song: tie-a-yellow-ribbon
     techniques:
     - I – iii – ii – V7
     - I – I+ – vi – V9/ii – ii – iv – ii – V7 – I
+  - song: 1pm
+    techniques:
+    - ii – V7sus4 – ii – V7 – I7 – V7 – IV6 – V65
+  - song: 7am
+    techniques:
+    - I7 – ii7 – iii7 – V9/ii – ii7 – iii7 – IV7 – Vsus4

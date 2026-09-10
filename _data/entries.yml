@@ -88,7 +88,7 @@
         - "I – I64"
     - category: Other Progressions
       techniques:
-	- "ii – V7sus4 – ii – V7 – I7 – V7 – IV6 – V65"
+        - "ii – V7sus4 – ii – V7 – I7 – V7 – IV6 – V65"
 
 - id: 7am 
   composer: Animal Crossing
@@ -98,10 +98,10 @@
     - category: "Rhythmic Techniques"
       techniques:
         - "<3,5>"
-	- "Ant. Sync"
+        - "Ant. Sync"
     - category: "Secondary Dominants"
       techniques:
-	- "V9/ii - ii"
+        - "V9/ii - ii"
     - category: Other Progressions
       techniques:
-	- "I7 – ii7 – iii7 – V9/ii – ii7 – iii7 – IV7 – Vsus4"
+        - "I7 – ii7 – iii7 – V9/ii – ii7 – iii7 – IV7 – Vsus4"
