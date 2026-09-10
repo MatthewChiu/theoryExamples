@@ -44,7 +44,7 @@
 
 ## 1. Add one entry to `_data/entries.yml`
 
-This is the only file you need to type into. List the song once, with **every** topic it touches — including nested subcategories where useful (e.g. `Secondary Dominants` / `V/vi`):
+List the song once, with **every** topic it touches — including nested subcategories where useful (e.g. `Secondary Dominants` / `V/vi`):
 
 ```yaml
 - id: shes-always-a-woman
@@ -72,26 +72,12 @@ Create a Markdown file in `examples/`, e.g. `examples/shes-always-a-woman.md`. T
 
 Once `entries.yml` is committed/pushed, a GitHub Action regenerates `_data/songs.yml` and `_data/theory.yml` for you and commits them — that's the "sorted into all categories automatically" part. You don't touch either file by hand.
 
-If you'd rather see the result immediately on your own machine before pushing (or you're working offline), run:
-
-```bash
-pip install -r requirements.txt
-python3 scripts/generate.py
-```
-
-That regenerates both files locally so you can preview the site before committing.
-
 ---
 
 # Adding Another Example to an Existing Song
 
 Find that song's existing entry in `entries.yml` and add another item to its `topics` list — no need to repeat composer/title/page, and no need to touch `theory.yml` at all.
 
----
-
-# Adding a Brand New Song
-
-Add one new entry (with `id`, `composer`, `title`, `page`, and `topics`) to the bottom of `entries.yml`, then create its `examples/<id>.md` page. That's it — one file to type into instead of three.
 
 ---
 
@@ -101,4 +87,4 @@ Add one new entry (with `id`, `composer`, `title`, `page`, and `topics`) to the 
 
 **`songs.yml` + `theory.yml` = the same information, re-sorted for the site** (the script writes this)
 
-**`examples/` = What's the detailed analysis?** (you still write this)
+**`examples/` = What's the detailed analysis?** 

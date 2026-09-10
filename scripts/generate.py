@@ -27,7 +27,22 @@ THEORY_PATH = REPO_ROOT / "_data" / "theory.yml"
 
 def load_entries():
     with open(ENTRIES_PATH, "r", encoding="utf-8") as f:
-        entries = yaml.safe_load(f) or []
+        raw = f.read()
+
+    if "\t" in raw:
+        bad_lines = [i + 1 for i, line in enumerate(raw.splitlines()) if "\t" in line]
+        sys.exit(
+            f"error: {ENTRIES_PATH} contains tab character(s) on line(s) "
+            f"{', '.join(str(n) for n in bad_lines)}.\n"
+            f"YAML only allows spaces for indentation — replace the tab(s) "
+            f"with spaces (2 spaces per level) and try again."
+        )
+
+    try:
+        entries = yaml.safe_load(raw) or []
+    except yaml.YAMLError as e:
+        sys.exit(f"error: could not parse {ENTRIES_PATH}:\n{e}")
+
     if not isinstance(entries, list):
         sys.exit(f"error: {ENTRIES_PATH} must contain a YAML list of entries")
     return entries
