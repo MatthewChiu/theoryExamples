@@ -31,7 +31,7 @@
       techniques:
         - "I → i"
     - category: Secondary Dominants
-      subcategory: "V/vi"
+      # subcategory: "V/vi"
       techniques:
         - "V7/vi"
     - category: Sequences
@@ -42,9 +42,39 @@
 
 - id: ill-never-smile-again
   composer: Tommy Dorsey
-  title: "Illl Never Smile Again"
+  title: "I'll Never Smile Again"
   page: /examples/ill-never-smile-again.html
   topics:
     - category: Mode Mixture
       techniques:
         - "iihd7 - V7 - I"
+
+- id: tie-a-yellow-ribbon
+  composer: Irving Levine and Russell Brown
+  title: "Tie a Yellow Ribbon Round the Ole Oak Tree"
+  page: /examples/tie-a-yellow-ribbon.html
+  topics:
+    - category: Secondary Dominants
+      # subcategory:
+      techniques:
+        - "V7/ii"
+        - "V7/V (delayed res.)"
+        - "V7/vi" 
+    - category: "64 Chords"
+      # subcategory: "Arp. 64"
+      techniques: "64"
+    - category: Tonicization
+      techniques:
+        - "ii/ii – V7/ii – ii"
+    - category: "Mode Mixture"
+      techniques:
+        - "ii – iv – vi – V7/V – iihd7 – V7 – iihd7 – V7"
+    - category: "Rhythmic Techniques"
+      techniques:
+        - "Tresillo"
+        - "Ant. Sync"     
+    - category: Other Progressions
+      techniques: 
+        - "I – iii – ii – V7"
+        - "I – I+ – vi – V9/ii – ii – iv – ii – V7 – I"
+

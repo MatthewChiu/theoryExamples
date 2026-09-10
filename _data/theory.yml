@@ -8,13 +8,19 @@
   - song: ill-never-smile-again
     techniques:
     - iihd7 - V7 - I
+  - song: tie-a-yellow-ribbon
+    techniques:
+    - ii – iv – vi – V7/V – iihd7 – V7 – iihd7 – V7
 - category: Secondary Dominants
-  subcategories:
-    V/vi:
-      examples:
-      - song: shes-always-a-woman
-        techniques:
-        - V7/vi
+  examples:
+  - song: shes-always-a-woman
+    techniques:
+    - V7/vi
+  - song: tie-a-yellow-ribbon
+    techniques:
+    - V7/ii
+    - V7/V (delayed res.)
+    - V7/vi
 - category: Sequences
   subcategories:
     Descending Fifths:
@@ -22,3 +28,24 @@
       - song: shes-always-a-woman
         techniques:
         - D5
+- category: 64 Chords
+  examples:
+  - song: tie-a-yellow-ribbon
+    techniques: '64'
+- category: Tonicization
+  examples:
+  - song: tie-a-yellow-ribbon
+    techniques:
+    - ii/ii – V7/ii – ii
+- category: Rhythmic Techniques
+  examples:
+  - song: tie-a-yellow-ribbon
+    techniques:
+    - Tresillo
+    - Ant. Sync
+- category: Other Progressions
+  examples:
+  - song: tie-a-yellow-ribbon
+    techniques:
+    - I – iii – ii – V7
+    - I – I+ – vi – V9/ii – ii – iv – ii – V7 – I
