@@ -53,6 +53,10 @@
     techniques:
     - <3,5>
     - Ant. Sync
+  - song: djkk
+    techniques:
+    - <3,3,3,3,2,2>
+    - double tresillo
 - category: Other Progressions
   examples:
   - song: tie-a-yellow-ribbon
@@ -65,3 +69,11 @@
   - song: 7am
     techniques:
     - I7 – ii7 – iii7 – V9/ii – ii7 – iii7 – IV7 – Vsus4
+  - song: djkk
+    techniques:
+    - iv - v - i7
+- category: Schema
+  examples:
+  - song: djkk
+    techniques:
+    - 'lament bass: i7 – VII7 – VI7 – v7'

@@ -105,3 +105,19 @@
     - category: Other Progressions
       techniques:
         - "I7 – ii7 – iii7 – V9/ii – ii7 – iii7 – IV7 – Vsus4"
+
+- id: djkk 
+  composer: Animal Crossing
+  title: "D.J. K.>"
+  # page: /examples/djkk.html
+  topics:
+    - category: "Rhythmic Techniques"
+      techniques:
+        - "<3,3,3,3,2,2>"
+        - "double tresillo"
+    - category: "Schema"
+      techniques:
+        - "lament bass: i7 – VII7 – VI7 – v7"  
+    - category: Other Progressions
+      techniques:
+        - "iv - v - i7"
