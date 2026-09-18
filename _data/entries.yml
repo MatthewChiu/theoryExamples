@@ -121,3 +121,42 @@
     - category: Other Progressions
       techniques:
         - "iv - v - i7"
+
+- id: kkbossa 
+  composer: Animal Crossing
+  title: "K.K. Bossa>"
+  # page: /examples/djkk.html
+  topics:
+    - category: "Rhythmic Techniques"
+      techniques:
+        - "Bossa nova"
+        - "<2,3,2,2,3,2,2>"
+    - category: "Tritone Substitution"
+      techniques:
+        - "ii9 - V7 – I13 – bII13 – I13"
+    - category: "Tonicization"
+      techniques:
+        - "ii9/ii - V7#5/ii - ii"
+        - "ii7b5/iii - V7#5/iii - iii"
+        - "ii7/V - V7/V - V"
+
+- id: kkcondor 
+  composer: Animal Crossing
+  title: "K.K. Condor>"
+  # page: /examples/djkk.html
+  topics:
+    - category: "Chord Loop"
+      techniques:
+        - "i – III - i – III"
+    - category: "Tonicization"
+      techniques:
+        - "IV/III - V764/III"
+
+- id: kkswing 
+  composer: Animal Crossing
+  title: "K.K. Swing>"
+  # page: /examples/djkk.html
+  topics:
+    - category: "Tritone Substitution"
+      techniques:
+        - "I13 - iii9 - bIII9 - ii9 - bII9 - I13"

@@ -43,6 +43,14 @@
   - song: tie-a-yellow-ribbon
     techniques:
     - ii/ii – V7/ii – ii
+  - song: kkbossa
+    techniques:
+    - ii9/ii - V7#5/ii - ii
+    - ii7b5/iii - V7#5/iii - iii
+    - ii7/V - V7/V - V
+  - song: kkcondor
+    techniques:
+    - IV/III - V764/III
 - category: Rhythmic Techniques
   examples:
   - song: tie-a-yellow-ribbon
@@ -57,6 +65,10 @@
     techniques:
     - <3,3,3,3,2,2>
     - double tresillo
+  - song: kkbossa
+    techniques:
+    - Bossa nova
+    - <2,3,2,2,3,2,2>
 - category: Other Progressions
   examples:
   - song: tie-a-yellow-ribbon
@@ -77,3 +89,16 @@
   - song: djkk
     techniques:
     - 'lament bass: i7 – VII7 – VI7 – v7'
+- category: Tritone Substitution
+  examples:
+  - song: kkbossa
+    techniques:
+    - ii9 - V7 – I13 – bII13 – I13
+  - song: kkswing
+    techniques:
+    - I13 - iii9 - bIII9 - ii9 - bII9 - I13
+- category: Chord Loop
+  examples:
+  - song: kkcondor
+    techniques:
+    - i – III - i – III
