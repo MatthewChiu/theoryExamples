@@ -24,6 +24,9 @@
   - song: 7am
     techniques:
     - V9/ii - ii
+  - song: yellowJacket
+    techniques:
+    - I - ii7/vi - V7/vi - vi7 - bII7/IV - IV7
 - category: Sequences
   subcategories:
     Descending Fifths:
@@ -51,6 +54,10 @@
   - song: kkcondor
     techniques:
     - IV/III - V764/III
+  - song: yellowJacket
+    techniques:
+    - I - ii7/vi - V7/vi - vi7 - bII7/IV - IV7 ...
+    - I6 - bVI - V/bVI - bI - V/bI - II - V/II - IV ...
 - category: Rhythmic Techniques
   examples:
   - song: tie-a-yellow-ribbon
@@ -69,6 +76,11 @@
     techniques:
     - Bossa nova
     - <2,3,2,2,3,2,2>
+  - song: yellowJacket
+    techniques:
+    - 3 projections
+    - guajira <332(2)2>
+    - anticipatory syncopation
 - category: Other Progressions
   examples:
   - song: tie-a-yellow-ribbon
@@ -97,8 +109,21 @@
   - song: kkswing
     techniques:
     - I13 - iii9 - bIII9 - ii9 - bII9 - I13
+  - song: yellowJacket
+    techniques:
+    - I - ii7/vi - V7/vi - vi7 - bII7/IV - IV7
 - category: Chord Loop
   examples:
   - song: kkcondor
     techniques:
     - i – III - i – III
+- category: Periods
+  examples:
+  - song: yellowJacket
+    techniques:
+    - Parallel interupted period
+- category: Descriptive Forms
+  examples:
+  - song: yellowJacket
+    techniques:
+    - A - B(bc) - A
