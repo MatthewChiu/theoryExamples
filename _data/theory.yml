@@ -27,6 +27,9 @@
   - song: yellowJacket
     techniques:
     - I - ii7/vi - V7/vi - vi7 - bII7/IV - IV7
+  - song: dontKnowWhy
+    techniques:
+    - I7 – V7/IV – IV7 – V7/vi – V7/V – V7sus4
 - category: Sequences
   subcategories:
     Descending Fifths:

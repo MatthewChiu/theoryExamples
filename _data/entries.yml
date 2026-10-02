@@ -191,3 +191,14 @@
     - category: "Descriptive Forms"
       techniques:
         - "A - B(bc) - A"
+
+
+- id: dontKnowWhy
+  composer: Jesse Harris / Nora Jones
+  title: "Don't Know Why>"
+  # page: /examples/djkk.html
+  topics:
+    - category: "Secondary Dominants"
+      techniques:
+        - "I7 – V7/IV – IV7 – V7/vi – V7/V – V7sus4"
+
