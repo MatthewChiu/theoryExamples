@@ -30,6 +30,9 @@
   - song: dontKnowWhy
     techniques:
     - I7 – V7/IV – IV7 – V7/vi – V7/V – V7sus4
+  - song: gracefulGhostRag
+    techniques:
+    - V7/ii – V7/V – V
 - category: Sequences
   subcategories:
     Descending Fifths:
@@ -125,8 +128,34 @@
   - song: yellowJacket
     techniques:
     - Parallel interupted period
+  - song: gracefulGhostRag
+    techniques: -Parallel Interrupted Period (A) -Parallel Sectional Period (B)
 - category: Descriptive Forms
   examples:
   - song: yellowJacket
     techniques:
     - A - B(bc) - A
+- category: Modulation
+  examples:
+  - song: gracefulGhostRag
+    techniques:
+    - (Bbm) i – v6  VI | (Db) IV – I6 – ii7 – V7 – I
+    - (Db) I – V65/ii – ii | (Bbm) iv – V – i
+- category: Non-Chord Tones
+  examples:
+  - song: gracefulGhostRag
+    techniques:
+    - Passing Tone
+    - Neighbor Tone
+    - Suspension
+    - Anticipation
+- category: Augmentred Sixth Chords
+  examples:
+  - song: gracefulGhostRag
+    techniques:
+    - 'Funky 6th: le-sol in the bass w/ a M6 instead of +6'
+- category: Form
+  examples:
+  - song: gracefulGhostRag
+    techniques:
+    - A (Bbm) – B (Gb) – A (Bbm)

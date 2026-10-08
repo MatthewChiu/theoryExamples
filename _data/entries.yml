@@ -202,3 +202,32 @@
       techniques:
         - "I7 – V7/IV – IV7 – V7/vi – V7/V – V7sus4"
 
+- id: gracefulGhostRag
+  composer: Wiliam Bolcom
+  title: "Graceful Ghost Rag>"
+  # page: /examples/djkk.html
+  topics:
+    - category: "Secondary Dominants"
+      techniques:
+        - V7/ii – V7/V – V
+    - category: "Modulation"
+      techniques:
+        - (Bbm) i – v6  VI | (Db) IV – I6 – ii7 – V7 – I
+        - (Db) I – V65/ii – ii | (Bbm) iv – V – i
+    - category: "Periods"
+      techniques:
+        -Parallel Interrupted Period (A)
+        -Parallel Sectional Period (B)
+    - category: "Non-Chord Tones"
+      techniques:
+        - "Passing Tone"
+        - "Neighbor Tone"
+        - "Suspension"
+        - "Anticipation"
+    - category: "Augmentred Sixth Chords"
+      techniques:
+        - "Funky 6th: le-sol in the bass w/ a M6 instead of +6"
+    - category: "Form"
+      techniques:
+        - "A (Bbm) – B (Gb) – A (Bbm)"
+        
