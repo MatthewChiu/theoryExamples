@@ -230,4 +230,18 @@
     - category: "Form"
       techniques:
         - "A (Bbm) – B (Gb) – A (Bbm)"
-        
+
+- id: sinfonietta, FP 141
+  composer: Francis Poulenc
+  title: "Sinfonietta, FP 141"
+  # page: /examples/djkk.html
+  topics:
+    - category: "Augmented Triads"
+      techniques:
+        - "D – D+ – Eb – Eb+ – E – E+ – F– F+ – F# – D7 – G"
+    - category: "Ascending Second Sequence"
+      techniques:
+        - "D – D+ – Eb – Eb+ – E – E+ – F– F+ – F# – D7 – G"
+    - category: "Parsimonious Voice Leading"
+      techniques:
+        - "D – D+ – Eb – Eb+ – E – E+ – F– F+ – F# – D7 – G"

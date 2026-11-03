@@ -159,3 +159,18 @@
   - song: gracefulGhostRag
     techniques:
     - A (Bbm) – B (Gb) – A (Bbm)
+- category: Augmented Triads
+  examples:
+  - song: sinfonietta, FP 141
+    techniques:
+    - D – D+ – Eb – Eb+ – E – E+ – F– F+ – F# – D7 – G
+- category: Ascending Second Sequence
+  examples:
+  - song: sinfonietta, FP 141
+    techniques:
+    - D – D+ – Eb – Eb+ – E – E+ – F– F+ – F# – D7 – G
+- category: Parsimonious Voice Leading
+  examples:
+  - song: sinfonietta, FP 141
+    techniques:
+    - D – D+ – Eb – Eb+ – E – E+ – F– F+ – F# – D7 – G
